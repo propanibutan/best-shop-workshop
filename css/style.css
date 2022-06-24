@@ -1,2 +1,30 @@
-font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
+:root {
+    --color-white-1: #FFFFFF;
+    --color-white-2: #F7F7F7;
+    --color-grey-1: #E8E9ED;
+    --color-grey-2: #00000029;
+    --color-grey-3: #A5A5A5;
+    --color-grey-4: #95989A;
+    --color-grey-5: #707070;
+    --color-grey-6: #13253B;
+    --color-black: #000000;
+    --color-blue-1: #08A6E4;
+    --color-blue-2: #07ACE6;
+    --color-blue-3: #07ACE629;
+    --color-red-1: #FB3B64;
+    --color-red-2: #EB476E;
+    --color-red-3: #F9043629;
+    --color-red-4: #FF091129;
+    --color-green: #55DFB4;
+
+    --border-radius-pricing-box: 18px;
+    --border-radius-pricing-button: 23px;
+    --border-radius-pricing-calculator: 6px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/*font-family: 'Raleway', sans-serif;*/
+
