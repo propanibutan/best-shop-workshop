@@ -1,8 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 :root {
@@ -27,11 +25,41 @@
     --border-radius-pricing-box: 18px;
     --border-radius-pricing-button: 23px;
     --border-radius-pricing-calculator: 6px;
+
+    --margin-page-header: 17px;
 }
 
 /*font-family: 'Raleway', sans-serif;*/
 
 .container {
     max-width: 1352px;
+    margin: 0;
+    padding: 0;
+}
 
+.page-header {
+    max-width: 100vh;
+
+}
+
+.page-header > .container {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 3px 6px var(--color-grey-2);
+
+
+}
+
+.page-header-logo {
+    color: var(--color-blue-1);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 37px;
+    margin: 16px 0 17px 136px;
+}
+
+.page-menu__list {
+    display: flex;
+    margin-right: 136px;
 }
