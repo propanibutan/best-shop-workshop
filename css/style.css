@@ -1,17 +1,12 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
-
 :root {
     --color-white-1: #FFFFFF;
     --color-white-2: #F7F7F7;
-    --color-grey-1: #E8E9ED;
-    --color-grey-2: #00000029;
-    --color-grey-3: #A5A5A5;
-    --color-grey-4: #95989A;
-    --color-grey-5: #707070;
-    --color-grey-6: #13253B;
+    --color-gray-1: #E8E9ED;
+    --color-gray-2: #00000029;
+    --color-gray-3: #A5A5A5;
+    --color-gray-4: #95989A;
+    --color-gray-5: #707070;
+    --color-gray-6: #13253B;
     --color-black: #000000;
     --color-blue-1: #08A6E4;
     --color-blue-2: #07ACE6;
@@ -27,6 +22,9 @@
     --border-radius-pricing-calculator: 6px;
 
     --margin-page-header: 17px;
+
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 /*font-family: 'Raleway', sans-serif;*/
@@ -45,9 +43,7 @@
 .page-header > .container {
     display: flex;
     justify-content: space-between;
-    box-shadow: 0 3px 6px var(--color-grey-2);
-
-
+    box-shadow: 0 3px 6px var(--color-gray-2);
 }
 
 .page-header-logo {
@@ -56,10 +52,28 @@
     font-weight: 300;
     font-size: 32px;
     line-height: 37px;
-    margin: 16px 0 17px 136px;
+    /*Tutaj margines jest 16px bo mi nie wyglada dobrze jak jest bez marginesu*/
+    margin: 16px 0 17px 16px;
 }
 
 .page-menu__list {
     display: flex;
-    margin-right: 136px;
+}
+
+.page-menu__list-link {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-gray-3);
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 3.28px;
+    padding: 28px 27px;
+}
+
+.page-menu__list-link:hover {
+    color: var(--color-black);
+    border-bottom: 4px solid var(--color-blue-1);
 }
