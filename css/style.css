@@ -143,6 +143,7 @@ h2 {
     margin-top: 101px;
     align-content: center;
     justify-content: space-evenly;
+    /*position: relative;*/
     /*gap: 183px;*/
 
 }
@@ -150,6 +151,29 @@ h2 {
 .statistics-circles__1,
 .statistics-circles__2,
 .statistics-circles__3 {
+    position: relative;
+}
+
+.statistics-circles__1__img:after {
+    content: "";
+    width: 55px;
+    height: 55px;
+    border-radius: 1000px;
+    background-color: var(--color-red-1);
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -100%);
+    background-image: url(../assets/Person.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.statistics-circles__2::after {
+
+}
+.statistics-circles__3::after {
+
 }
 
 .statistics-circles__numbers {
