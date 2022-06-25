@@ -44,6 +44,7 @@ h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     line-height: 42px;
+    color: var(--color-black);
 }
 
 .page-header,
@@ -93,7 +94,6 @@ h2 {
 .opening {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .opening-header {
@@ -124,4 +124,40 @@ h2 {
     color: var(--color-white-1);
     font-weight: bold;
     line-height: 22px;
+}
+
+.statistics > .container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 -5px 80px var(--color-gray-2);
+}
+
+.statistics-header {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.statistics-circles {
+    display: flex;
+    flex-direction: row;
+    margin-top: 101px;
+    justify-content: space-evenly;
+}
+
+.statistics-circles__numbers {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 5.96px;
+    color: var(--color-black);
+}
+
+.statistics-circles__info {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 20;
+    color: var(--color-gray-3);
 }
