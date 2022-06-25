@@ -141,7 +141,15 @@ h2 {
     display: flex;
     flex-direction: row;
     margin-top: 101px;
+    align-content: center;
     justify-content: space-evenly;
+    /*gap: 183px;*/
+
+}
+
+.statistics-circles__1,
+.statistics-circles__2,
+.statistics-circles__3 {
 }
 
 .statistics-circles__numbers {
@@ -152,6 +160,8 @@ h2 {
     line-height: 24px;
     letter-spacing: 5.96px;
     color: var(--color-black);
+
+
 }
 
 .statistics-circles__info {
@@ -160,4 +170,6 @@ h2 {
     text-align: center;
     line-height: 20;
     color: var(--color-gray-3);
+    overflow-wrap: break-word;
+    max-width: 135px;
 }
