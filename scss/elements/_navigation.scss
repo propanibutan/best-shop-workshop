@@ -137,12 +137,8 @@ a {
     float: left;
   }
   .header li a {
-    padding: 20px 30px;
-  }
-
-  .header li a:hover {
-    color: $color-black;
-    border-bottom: 4px solid $color-blue-1;
+    padding: 28px 18px 22px;
+    margin: 0;
   }
 
   .header .menu {
@@ -151,6 +147,12 @@ a {
     max-height: none;
     box-shadow: none;
   }
+
+  .header .menu li:hover {
+      color: $color-black;
+      border-bottom: 4px solid $color-blue-1;
+  }
+
   .header .menu-icon {
     display: none;
   }
