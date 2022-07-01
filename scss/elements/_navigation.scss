@@ -1,0 +1,46 @@
+@import "../settings/_root.scss";
+@import "../settings/_mixins.scss";
+
+.page-header,
+.statistics {
+  max-width: 100vw;
+}
+
+.page-header > .container {
+  justify-content: space-between;
+  box-shadow: 0 3px 6px $color-gray-2;
+  align-items: center;
+  height: 100%;
+}
+
+.page-header-logo {
+  color: $color-blue-1;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 37px;
+  /*Tutaj margines jest 16px bo mi nie wyglada dobrze jak jest bez marginesu*/
+  margin: 16px 0 17px 16px;
+}
+
+.page-menu__list {
+  display: flex;
+}
+
+.page-menu__list-link {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: $color-gray-3;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 3.28px;
+  padding: 28px 18px 22px;
+}
+
+.page-menu__list-link:hover {
+  color: $color-black;
+  border-bottom: 4px solid $color-blue-1;
+}
