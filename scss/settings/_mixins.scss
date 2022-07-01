@@ -1,1 +1,6 @@
 @import "../settings/_root.scss";
+
+@mixin benefits-mixin() {
+  padding-right: 21px;
+  padding-left: 22px;
+}

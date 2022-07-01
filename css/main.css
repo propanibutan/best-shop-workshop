@@ -463,8 +463,8 @@ a {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #07ACE6;
   content: "";
+  background: #07ACE6;
   display: block;
   height: 100%;
   position: absolute;
@@ -582,10 +582,16 @@ a {
   font-weight: bold;
   line-height: 22px;
 }
+@media (max-width: 400px) {
+  .opening-button {
+    padding: 22px 25px;
+    width: 100vw;
+  }
+}
 @media (max-width: 831px) {
   .opening-button {
-    padding: 22px 92px;
-    white-space: nowrap;
+    padding: 22px 25px;
+    width: 80vw;
   }
 }
 
@@ -738,5 +744,39 @@ a {
   color: #A5A5A5;
   overflow-wrap: break-word;
   max-width: 130px;
+}
+
+.benefits {
+  background-color: #F7F7F7;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.benefits-single {
+  display: flex;
+  flex-direction: column;
+  width: 314px;
+  height: 370px;
+  background-color: #FFFFFF;
+  border: 1px solid #E8E9ED;
+  border-radius: 5px;
+  margin: 21px 15px;
+  align-self: center;
+  padding-right: 21px;
+  padding-left: 22px;
+}
+
+.benefits-single__img__1 {
+  margin-bottom: 26px;
+}
+.benefits-single__img__1::before {
+  content: "";
+  position: absolute;
+  width: 127px;
+  height: 127px;
+  background-color: #FB3B64;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  z-index: 1;
 }
 /*# sourceMappingURL=main.css.map */

@@ -51,9 +51,14 @@
   font-weight: bold;
   line-height: 22px;
 
+  @media (max-width: 400px) {
+    padding: 22px 25px;
+    width: 100vw;
+  }
+
   @media (max-width: 831px) {
-    padding: 22px 92px;
-    white-space: nowrap;
+    padding: 22px 25px;
+    width: 80vw;
   }
 }
 
