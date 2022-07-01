@@ -30,6 +30,11 @@
   /*position: relative;*/
   /*gap: 183px;*/
 
+  @media (max-width: 831px) {
+    flex-direction: column;
+    margin: 25px auto;
+  }
+
 }
 
 .statistics-circles__1,
@@ -40,6 +45,11 @@
   /*width: 176px;*/
   /*height: 167px;*/
   /*display: inline-block;*/
+
+  @media (max-width: 831px) {
+    align-self: center;
+    margin: 25px auto;
+  }
 }
 
 .statistics-circles__1__img {

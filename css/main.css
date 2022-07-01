@@ -623,6 +623,12 @@ a {
   /*position: relative;*/
   /*gap: 183px;*/
 }
+@media (max-width: 831px) {
+  .statistics-circles {
+    flex-direction: column;
+    margin: 25px auto;
+  }
+}
 
 .statistics-circles__1,
 .statistics-circles__2,
@@ -632,6 +638,14 @@ a {
   /*width: 176px;*/
   /*height: 167px;*/
   /*display: inline-block;*/
+}
+@media (max-width: 831px) {
+  .statistics-circles__1,
+.statistics-circles__2,
+.statistics-circles__3 {
+    align-self: center;
+    margin: 25px auto;
+  }
 }
 
 .statistics-circles__1__img {
