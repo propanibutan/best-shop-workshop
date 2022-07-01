@@ -599,7 +599,6 @@ a {
 .statistics > .container {
   display: flex;
   flex-direction: column;
-  box-shadow: 0 -5px 80px rgba(0, 0, 0, 0.1607843137);
 }
 @media (max-width: 831px) {
   .statistics > .container {

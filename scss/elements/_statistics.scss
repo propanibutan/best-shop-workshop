@@ -4,7 +4,6 @@
 .statistics > .container {
   display: flex;
   flex-direction: column;
-  box-shadow: 0 -5px 80px $color-gray-2;
 
   @media (max-width: 831px) {
     padding: 50px 36px;
