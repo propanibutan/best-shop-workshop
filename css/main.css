@@ -416,7 +416,6 @@ a {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
   color: #000000;
   font-weight: 800;
 }
