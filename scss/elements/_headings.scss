@@ -4,6 +4,7 @@
 .opening {
   display: flex;
   flex-direction: column;
+  padding-bottom: 0;
 
   @media (max-width: 831px) {
     padding-left: 33px;

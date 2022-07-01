@@ -400,6 +400,7 @@ a {
   list-style: none;
   overflow: hidden;
   background-color: #fff;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1607843137);
 }
 
 .header li a {
@@ -436,7 +437,7 @@ a {
   clear: both;
   max-height: 0;
   transition: max-height 0.2s ease-out;
-  margin-left: 15px;
+  box-shadow: inset 0 7px 9px -7px rgba(0, 0, 0, 0.3);
 }
 
 /* menu icon */
@@ -444,7 +445,7 @@ a {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 28px 25px;
+  padding: 29px 30px;
   position: relative;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -521,6 +522,7 @@ a {
     clear: none;
     float: right;
     max-height: none;
+    box-shadow: none;
   }
   .header .menu-icon {
     display: none;
@@ -529,6 +531,7 @@ a {
 .opening {
   display: flex;
   flex-direction: column;
+  padding-bottom: 0;
 }
 @media (max-width: 831px) {
   .opening {
@@ -611,6 +614,7 @@ a {
   .statistics-header {
     margin: 0;
     font-size: 1.875em;
+    line-height: 35px;
   }
 }
 
