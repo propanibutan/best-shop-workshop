@@ -381,11 +381,6 @@ html {
 }
 
 /*font-family: 'Raleway', sans-serif;*/
-body {
-  margin: 0;
-  background-color: #f4f4f4;
-}
-
 a {
   color: #000;
 }
@@ -512,7 +507,7 @@ a {
 }
 
 /* 48em = 768px */
-@media (min-width: 48em) {
+@media (min-width: 831px) {
   .header li {
     float: left;
   }
@@ -536,6 +531,12 @@ a {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 831px) {
+  .opening {
+    padding-left: 33px;
+    padding-right: 33px;
+  }
+}
 
 .opening-header {
   color: #000000;
@@ -546,11 +547,22 @@ a {
   margin-top: 130px;
   margin-bottom: 20px;
 }
+@media (max-width: 831px) {
+  .opening-header {
+    font-size: 35px;
+  }
+}
 
 .opening-content {
   color: #000000;
   line-height: 22px;
   text-align: center;
+}
+@media (max-width: 831px) {
+  .opening-content {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 .opening-button {
@@ -565,6 +577,19 @@ a {
   color: #FFFFFF;
   font-weight: bold;
   line-height: 22px;
+}
+@media (max-width: 831px) {
+  .opening-button {
+    padding: 22px 92px;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 831px) {
+  .opening-image {
+    width: 200vw;
+    align-self: center;
+  }
 }
 
 .statistics > .container {

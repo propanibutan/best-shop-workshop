@@ -4,6 +4,11 @@
 .opening {
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 831px) {
+    padding-left: 33px;
+    padding-right: 33px;
+  }
 }
 
 .opening-header {
@@ -14,12 +19,21 @@
   text-align: center;
   margin-top: 130px;
   margin-bottom: 20px;
+
+  @media (max-width: 831px) {
+    font-size: 35px;
+  }
 }
 
 .opening-content {
   color: $color-black;
   line-height: 22px;
   text-align: center;
+
+  @media (max-width: 831px) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 .opening-button {
@@ -34,4 +48,16 @@
   color: $color-white-1;
   font-weight: bold;
   line-height: 22px;
+
+  @media (max-width: 831px) {
+    padding: 22px 92px;
+    white-space: nowrap;
+  }
+}
+
+.opening-image {
+  @media (max-width: 831px) {
+    width: 200vw;
+    align-self: center;
+  }
 }

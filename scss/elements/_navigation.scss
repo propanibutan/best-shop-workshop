@@ -1,11 +1,6 @@
 @import "../settings/_root.scss";
 @import "../settings/_mixins.scss";
 
-body {
-  margin: 0;
-  background-color: #f4f4f4;
-}
-
 a {
   color: #000;
 }
@@ -136,7 +131,7 @@ a {
 
 /* 48em = 768px */
 
-@media (min-width: 48em) {
+@media (min-width: 831px) {
   .header li {
     float: left;
   }
