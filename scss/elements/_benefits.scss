@@ -20,7 +20,7 @@
   align-self: center;
   @include benefits-mixin();
 }
-
+//zeby przyczepic do obrazka before musze go wsadzic do contenera
 .benefits-single__img__1 {
   margin-bottom: 26px;
   &::before {
