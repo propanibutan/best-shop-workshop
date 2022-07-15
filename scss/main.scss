@@ -1,16 +1,19 @@
-@import "generic/_reset.scss";
-@import "generic/_grid.scss";
+@import "generic/reset.scss";
+@import "generic/grid.scss";
 
-@import "settings/_root.scss";
-@import "settings/_mixins.scss";
+@import "settings/root.scss";
+@import "settings/mixins.scss";
 
-@import "elements/_main.scss";
-@import "elements/_base.scss";
-@import "elements/_navigation.scss";
-@import "elements/_headings.scss";
-@import "elements/_statistics.scss";
-@import "elements/_benefits.scss";
-@import "elements/_buttons.scss";
+@import "elements/main.scss";
+@import "elements/base.scss";
+@import "elements/navigation.scss";
+@import "elements/headings.scss";
+@import "elements/statistics.scss";
+@import "elements/benefits.scss";
+@import "elements/calculator.scss";
+@import "elements/form.scss";
+@import "elements/buttons.scss";
+
 
 
 

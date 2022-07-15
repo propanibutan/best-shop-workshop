@@ -25,10 +25,7 @@
   display: flex;
   flex-direction: row;
   margin-top: 101px;
-  /*align-content: center;*/
   justify-content: space-evenly;
-  /*position: relative;*/
-  /*gap: 183px;*/
 
   @media (max-width: 831px) {
     flex-direction: column;
@@ -40,11 +37,7 @@
 .statistics-circles__1,
 .statistics-circles__2,
 .statistics-circles__3 {
-  /*position: relative;*/
   text-align: center;
-  /*width: 176px;*/
-  /*height: 167px;*/
-  /*display: inline-block;*/
 
   @media (max-width: 831px) {
     align-self: center;
